@@ -6,7 +6,7 @@
 $wp_customize->add_section( 'blog_section_title', array(
 	'priority'       => 1,
 	'panel'          => 'front_page',
-	'title'          => __( 'Video Section', 'construc' ),
+	'title'          => __( 'Blog Section Title', 'construc' ),
 	'description'    => __( 'Customize Video Section. this would be popup', 'construc' ),
 	'capability'     => 'edit_theme_options',
 ) );

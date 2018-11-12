@@ -143,11 +143,6 @@ require get_template_directory() . '/inc/comment-form.php';
 require get_template_directory() . '/inc/widget/latest-post.php';
 
 /**
- * Latest Post Widget
- */
-require get_template_directory() . '/inc/widget/services.php';
-
-/**
  * Load Jetpack compatibility file.
  */
 if ( defined( 'JETPACK__VERSION' ) ) {
