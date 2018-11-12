@@ -205,3 +205,16 @@ function construc_pagination($echo = true)
     }
 }
 
+
+if ( ! function_exists( 'construc_required_link' ) ) :
+/**
+ * Theme credits text.
+ */
+function construc_required_link() {
+    $text = sprintf( __( 'Developed by %s | Copyright 2018 All rights reserved.', 'construc' ),
+        '<a href="'.esc_url('https://www.linkedin.com/in/mdimran41/').'">Abdullah Al Imran</a>'
+    );
+
+    echo apply_filters( 'footer_credits', $text );
+}
+endif;

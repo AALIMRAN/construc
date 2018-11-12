@@ -21,7 +21,7 @@
             <div class="row">
                 <div class="col-md-12 text-center">
                     <!-- Please if you are using free version don't remove it please. but if you are using premium version then you can use. tank you -->
-                    <?php echo wp_kses_post(get_theme_mod('copyright_content', '<p>Construction Business WordPress Theme. Developed by <a href="'.home_url('/').'">Theimran.com</a>. All rights reserved.</p>')); ?>
+                   <p><?php construc_required_link(); ?></p>
                 </div>
             </div>
         </div>

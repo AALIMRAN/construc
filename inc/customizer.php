@@ -78,22 +78,30 @@ if ( ! function_exists( 'construc_customize_name_panel_section' ) ) {
 
 		require get_template_directory() . '/inc/themeoptions/topbar.php';
 
-		/*
-		 * Footer Options 
-		 */
-
-		require get_template_directory() . '/inc/themeoptions/footer.php';
-
 		$wp_customize->add_panel( 'front_page', array(
 			'priority'       => 60,
 			'title'          => __( 'Front Page', 'construc' ),
 			'description'    => __( 'Customize Website Front Page Area', 'construc' ),
 			'capability'     => 'edit_theme_options',
 		) );
+
 		/*
-		 * Footer Options 
+		 * Home Slider
 		 */
+
 		require get_template_directory() . '/inc/themeoptions/home-slider.php';
+
+		/*
+		 * Home Slider
+		 */
+
+		require get_template_directory() . '/inc/themeoptions/video-section.php';
+
+		/*
+		 * Blog slider
+		 */
+
+		require get_template_directory() . '/inc/themeoptions/section-title.php';
 
 	}
 }

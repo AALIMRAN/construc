@@ -39,7 +39,6 @@ class Construc_Latest_Post extends WP_Widget
             $defautlpost = new WP_Query(array(
                 'post_type' =>  array('post'),
                 'posts_per_page'    =>  $postcount
-
             ));
             while ($defautlpost->have_posts()) :
                 $defautlpost->the_post();?>
@@ -50,11 +49,11 @@ class Construc_Latest_Post extends WP_Widget
                             </div>
                             <div class="recent-content">
                                 <p><?php the_title(); ?></p>
-                                <p><span class="fa fa-clock-o"></span> <?php construc_time(); ?></p>
+                                <p><span class="fa fa-clock-o"></span> <?php construc_posted_on(); ?></p>
                             </div>
                         </a>
                     </div>
-            <?php endwhile; ?>
+                <?php endwhile; ?>
                 </ul><!-- end latest-tweet -->
             </div><!-- end twitter-widget -->
 

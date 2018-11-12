@@ -21,7 +21,7 @@ $wp_customize->add_setting( 'topbar_left_content', array(
 		                        </div>',
 	'transport'            => 'refresh', // Options: refresh or postMessage.
 	'capability'           => 'edit_theme_options',
-	'sanitize_callback'		=> 'esc_attr'
+	'sanitize_callback'		=> 'wp_kses_post'
 ) );
 
 $wp_customize->add_control( 'topbar_left_content', array(

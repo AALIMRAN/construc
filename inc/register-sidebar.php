@@ -50,23 +50,5 @@ function construc_widgets_init() {
 		'before_title'  => '<h2 class="widget-title">',
 		'after_title'   => '</h2>',
 	) );
-	register_sidebar( array(
-		'name'          => esc_html__( 'Page Sidebar', 'construc' ),
-		'id'            => 'page-1',
-		'description'   => esc_html__( 'Add widgets here.', 'construc' ),
-		'before_widget' => '<div id="%1$s" class="widget %2$s">',
-		'after_widget'  => '</div>',
-		'before_title'  => '<h2 class="widget-title">',
-		'after_title'   => '</h2>',
-	) );
-	register_sidebar( array(
-		'name'          => esc_html__( 'Services Sidebar', 'construc' ),
-		'id'            => 'services-1',
-		'description'   => esc_html__( 'Add widgets here.', 'construc' ),
-		'before_widget' => '<div id="%1$s" class="widget %2$s">',
-		'after_widget'  => '</div>',
-		'before_title'  => '<h2 class="widget-title">',
-		'after_title'   => '</h2>',
-	) );
 }
 add_action( 'widgets_init', 'construc_widgets_init' );

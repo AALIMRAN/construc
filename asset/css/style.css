@@ -1836,3 +1836,12 @@ span.construc-comment {
 .widget ul ul {
     padding-left: 15px;
 }
+body.single-post {
+    border: 0;
+    padding: 0;
+    margin-bottom: 0
+}
+.widget ul.addressh-office li {
+    overflow: hidden;
+    margin-bottom: 10px
+}

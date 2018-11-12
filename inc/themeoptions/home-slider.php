@@ -27,7 +27,7 @@
  	'default'              => 'We Make Your <br> Dream Into Reality',
  	'transport'            => 'refresh', // Options: refresh or postMessage.
  	'capability'           => 'edit_theme_options',
- 	'sanitize_callback'		=> 'esc_attr'
+ 	'sanitize_callback'		=> 'wp_kses_post'
  ) );
  $wp_customize->add_control( 'slider_title_one', array(
  	'label'       => __( 'Title', 'construc' ),
@@ -38,7 +38,7 @@
  	'default'              => 'The European languages are members of the same family. Their separate existence is a myth.<br> For science,  music, sport, etc, Europe uses the same vocabulary.',
  	'transport'            => 'refresh', // Options: refresh or postMessage.
  	'capability'           => 'edit_theme_options',
- 	'sanitize_callback'		=> 'esc_attr'
+ 	'sanitize_callback'		=> 'wp_kses_post'
  ) );
  $wp_customize->add_control( 'slider_description_one', array(
  	'label'       => __( 'Description', 'construc' ),
@@ -49,7 +49,7 @@
  	'default'              => 'Get Started',
  	'transport'            => 'refresh', // Options: refresh or postMessage.
  	'capability'           => 'edit_theme_options',
- 	'sanitize_callback'		=> 'esc_attr'
+ 	'sanitize_callback'		=> 'wp_kses_post'
  ) );
  $wp_customize->add_control( 'slider_button_one_text', array(
  	'label'       => __( 'Button Text', 'construc' ),
@@ -90,7 +90,7 @@
  	'default'              => 'We Make Your <br> Dream Into Reality',
  	'transport'            => 'refresh', // Options: refresh or postMessage.
  	'capability'           => 'edit_theme_options',
- 	'sanitize_callback'		=> 'esc_attr'
+ 	'sanitize_callback'		=> 'wp_kses_post'
  ) );
  $wp_customize->add_control( 'slider_title_two', array(
  	'label'       => __( 'Title', 'construc' ),
@@ -101,7 +101,7 @@
  	'default'              => 'The European languages are members of the same family. Their separate existence is a myth.<br> For science,  music, sport, etc, Europe uses the same vocabulary.',
  	'transport'            => 'refresh', // Options: refresh or postMessage.
  	'capability'           => 'edit_theme_options',
- 	'sanitize_callback'		=> 'esc_attr'
+ 	'sanitize_callback'		=> 'wp_kses_post'
  ) );
 
  $wp_customize->add_control( 'slider_description_two', array(
@@ -114,7 +114,7 @@
  	'default'              => 'Get Started',
  	'transport'            => 'refresh', // Options: refresh or postMessage.
  	'capability'           => 'edit_theme_options',
- 	'sanitize_callback'		=> 'esc_attr'
+ 	'sanitize_callback'		=> 'wp_kses_post'
  ) );
 
  $wp_customize->add_control( 'slider_button_two_text', array(
@@ -157,7 +157,7 @@
  	'default'              => 'We Make Your <br> Dream Into Reality',
  	'transport'            => 'refresh', // Options: refresh or postMessage.
  	'capability'           => 'edit_theme_options',
- 	'sanitize_callback'		=> 'esc_attr'
+ 	'sanitize_callback'		=> 'wp_kses_post'
  ) );
 
  $wp_customize->add_control( 'slider_title_three', array(
@@ -170,7 +170,7 @@
  	'default'              => 'The European languages are members of the same family. Their separate existence is a myth.<br> For science,  music, sport, etc, Europe uses the same vocabulary.',
  	'transport'            => 'refresh', // Options: refresh or postMessage.
  	'capability'           => 'edit_theme_options',
- 	'sanitize_callback'		=> 'esc_attr'
+ 	'sanitize_callback'		=> 'wp_kses_post'
  ) );
 
  $wp_customize->add_control( 'slider_description_three', array(
@@ -183,7 +183,7 @@
  	'default'              => 'Get Started',
  	'transport'            => 'refresh', // Options: refresh or postMessage.
  	'capability'           => 'edit_theme_options',
- 	'sanitize_callback'		=> 'esc_attr'
+ 	'sanitize_callback'		=> 'wp_kses_post'
  ) );
 
  $wp_customize->add_control( 'slider_button_three_text', array(

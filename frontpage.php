@@ -6,5 +6,7 @@
 get_header();
 get_template_part( 'template-parts/section/home', 'slider' );
 get_template_part( 'template-parts/section/blog', 'grid' );
+get_template_part( 'template-parts/section/video', 'section' );
+get_template_part( 'template-parts/section/blog', 'slider' );
 get_footer();
 ?>

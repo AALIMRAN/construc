@@ -42,6 +42,7 @@ if ( ! function_exists( 'construc_setup' ) ) :
 		 */
 		add_theme_support( 'post-thumbnails' );
 		add_image_size( 'construc-recent-thumn', 65, 65, true );
+		add_image_size( 'construc-thumbnail', 370, 230, true );
 
 		// This theme uses wp_nav_menu() in one location.
 		register_nav_menus( array(
